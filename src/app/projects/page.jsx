@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Navebar from "@/components/menu/HomeB.jsx";
 import Footer from "@/components/menu/footer.jsx";
 import "./projects.css";
@@ -37,9 +36,6 @@ function ProjectCard({ logos, name, content, link }) {
           </a>
         </div>
       </div>
-
-      <br></br>
-
       <div data-testid="projectCard" className="project-card">
         <div>
           <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
@@ -52,9 +48,6 @@ function ProjectCard({ logos, name, content, link }) {
           </a>
         </div>
       </div>
-
-      <br></br>
-
       <div data-testid="projectCard" className="project-card">
         <div>
           <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
@@ -67,9 +60,6 @@ function ProjectCard({ logos, name, content, link }) {
           </a>
         </div>
       </div>
-
-      <br></br>
-
       <div data-testid="projectCard" className="project-card">
         <div>
           <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
@@ -82,9 +72,6 @@ function ProjectCard({ logos, name, content, link }) {
           </a>
         </div>
       </div>
-
-      <br></br>
-
       <div data-testid="projectCard" className="project-card">
         <div>
           <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
@@ -97,9 +84,6 @@ function ProjectCard({ logos, name, content, link }) {
           </a>
         </div>
       </div>
-
-      <br></br>
-
       <div data-testid="projectCard" className="project-card">
         <div>
           <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
@@ -112,24 +96,16 @@ function ProjectCard({ logos, name, content, link }) {
           </a>
         </div>
       </div>
-      <br></br>
     </>
   );
 }
 
-export function Projects(logo, name, content, link) {
+export default function Projects() {
+  //Return HTML elements for Project page
   return (
-    <div className="project-card">
-      <div>
-        <img src={logo} alt={`${name} logo`} className="project-logo" />
-        <h2 className="project-name">{name}</h2>
-      </div>
-      <div>
-        <p className="project-content">{content}</p>
-        <a href={link} className="project-link">
-          <img src="https://icon.now.sh/arrow/ffffff" alt="arrow" className="project-link-icon" />
-          View project
-        </a>
+    <div className="body">
+      <div className="navebar">
+        <Navebar className="Navebar" />
       </div>
 
       <div className="projectBody">
@@ -155,16 +131,3 @@ export function Projects(logo, name, content, link) {
     </div>
   );
 }
-
-ProjectCard.propTypes = {
-  logo: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
-  link: PropTypes.string,
-};
-
-ProjectCard.defaultProps = {
-  link: "#",
-};
-
-export default ProjectCard;

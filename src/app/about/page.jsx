@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Navebar from "@/components/menu/HomeB.jsx";
 import Footer from "@/components/menu/footer.jsx";
 import "./about.css";
@@ -46,20 +45,6 @@ const socialLinks = [
   },
 ];
 
-// export default function About() {
-//   //Return HTML elements for About page
-//   return (
-//     <div className="body">
-//       <div className="navebar">
-//         <Navebar className="Navebar" />
-//       </div>
-
-//       <div className="footerBox">
-//         <Footer className="Footer" links={links} />
-//       </div>
-//     </div>
-//   );
-// }
 export default function About() {
   //Return HTML elements for About page
   return (

@@ -1,8 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Navebar from "@/components/menu/HomeB.jsx";
 import Footer from "@/components/menu/footer.jsx";
-import "./projects.css";
-import logo from "./projectPic.png";
+import "./about.css";
+import SocialWidget from "@/components/Widget/SocialWidget";
 const links = [
   {
     title: "Home",
@@ -21,143 +22,96 @@ const links = [
     url: "/uses",
   },
 ];
-function ProjectCard({ logos, name, content, link }) {
+
+const socialLinks = [
+  {
+    text: "Follow me on Twitter",
+    url: "https://twitter.com",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg",
+  },
+  {
+    text: "Follow me on LinkedIn",
+    url: "https://linkedin.com",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+  },
+  {
+    text: "Follow me on GitHub",
+    url: "https://github.com",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+  },
+  {
+    text: "Email me",
+    url: "mailto:whoami@example.com",
+    logo: "https://img.icons8.com/?size=64&id=6mtfF8X7F8eV&format=png",
+  },
+];
+
+// export default function About() {
+//   //Return HTML elements for About page
+//   return (
+//     <div className="body">
+//       <div className="navebar">
+//         <Navebar className="Navebar" />
+//       </div>
+
+//       <div className="footerBox">
+//         <Footer className="Footer" links={links} />
+//       </div>
+//     </div>
+//   );
+// }
+export default function About() {
+  //Return HTML elements for About page
   return (
-    <>
-      <div data-testid="projectCard" className="project-card">
-        <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
-        </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
-        </div>
+    <div className="body">
+      <div className="navebar">
+        <Navebar className="Navebar" />
       </div>
 
-      <br></br>
-
-            <div data-testid="projectCard" className="project-card">
-        <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
+      <div className="aboutBody">
+        <div className="aboutDescription">
+          <h1 className="h1">I’m Jane. I live in New York City, where I develop the future.</h1>
+          <br></br>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
+            adipiscing elit Ut et massa mi..
+          </p>
+          <br></br>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
+            adipiscing elit Ut et massa mi..
+          </p>
+          <br></br>
+          <p>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
+            adipiscing elit Ut et massa mi..
+          </p>
+          <br></br>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
+            adipiscing elit Ut et massa mi..
+          </p>
+          <br></br>
+          <br></br>
         </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
+
+        <div className="aboutColumn">
+          <div className="imageStyle">
+            <img src="pic.png" />
+          </div>
+
+          <SocialWidget links={socialLinks} />
+          {/* <div className="links">Link 1</div>
+          <div className="links">Link 2</div>
+          <div className="links">Link 3</div>
+          <div className="links">Link 4</div> */}
         </div>
-      </div>
-
-      <br></br>
-
-      <div data-testid="projectCard" className="project-card">
-        <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
-        </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
-        </div>
-      </div>
-
-      <br></br>
-
-      <div data-testid="projectCard" className="project-card">
-        <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
-        </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
-        </div>
-      </div>
-
-      <br></br>
-
-      <div data-testid="projectCard" className="project-card">
-        <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
-        </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
-        </div>
-      </div>
-
-      <br></br>
-
-      <div data-testid="projectCard" className="project-card">
-        <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
-        </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
-        </div>
-      </div>
-      <br></br>
-    </>
-
-  );
-}
-
-export function Projects(logo, name, content, link) {
-  return (
-    <div className="project-card">
-      <div>
-        <img src={logo} alt={`${name} logo`} className="project-logo" />
-        <h2 className="project-name">{name}</h2>
-      </div>
-      <div>
-        <p className="project-content">{content}</p>
-        <a href={link} className="project-link">
-          <img src="https://icon.now.sh/arrow/ffffff" alt="arrow" className="project-link-icon" />
-          View project
-        </a>
-      </div>
-
-      <div className="projectBody">
-        <h1 className="h1">Things I’ve made trying to put my dent in the universe.</h1>
-        <br></br>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-          adipiscing elit Ut et massa mi..
-        </p>
-        <br></br>
       </div>
 
       <div className="footerBox">
         <Footer className="Footer" links={links} />
       </div>
-    </div>
+      </div>
   );
 }
-
-ProjectCard.propTypes = {
-  logo: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
-  link: PropTypes.string,
-};
-
-ProjectCard.defaultProps = {
-  link: "#",
-};
-
-export default ProjectCard;

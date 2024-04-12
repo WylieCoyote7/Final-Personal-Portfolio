@@ -25,82 +25,57 @@ const links = [
 
 const items = [
   {
-    groupName: 'Workstation',
+    groupName: 'Computer',
     items: [
       {
-        title: '16” MacBook Pro, M1 Max, 64GB RAM (2022)',
+        title: 'Dell Inspiron 15 5000',
         description:
-          'I was using an Intel-based 16” MacBook Pro prior to this and the difference is night and day. I’ve never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various launch simulations.',
+          'This is the current computer I use. It is almost 6 years old and still going, with a battery and hard drive update of course. It has an Intel 8th generation processor, fast enough to code and run some virtual machines.',
       },
       {
-        title: 'Dell UltraSharp U2717D',
+        title: 'Dell Keyboard',
         description:
-          'I have two of these monitors and they’re great. I’ve had them for years and they’ve been rock solid.',
+          'You can use whatever keyboard you feel comfortable with, but for some reason, I like the basic stock Dell keyboards. They are quiet, smooth, and the keys are short.',
       },
       {
-        title: 'Keychron K2',
+        title: 'Logitech G502 Gaming Mouse',
         description:
-          'I’ve been using this keyboard for a few years now and I love it. It’s wireless, has a great feel, and the battery lasts forever.',
-      },
-      {
-        title: 'Logitech MX Master 3',
-        description:
-          'I’ve been using this mouse for a few years now and it’s great. It’s wireless, has a great feel, and the battery lasts forever.',
-      },
-      {
-        title: 'Audio-Technica ATH-M50x',
-        description:
-          'I’ve been using these headphones for a few years now and they’re great. They’re comfortable, sound good, and are built like a tank.',
-      },
-      {
-        title: 'Rain Design mStand',
-        description:
-          'I’ve been using this stand for my MacBook Pro for a few years now and it’s great. It’s sturdy, looks good, and keeps my laptop cool.',
+          'I love this mouse, mainly because I can program the extra buttons to use the copy, paste, and clipboard history function on Windows.',
       },
     ],
   },
   {
-    groupName: 'Development',
+    groupName: 'Coding',
     items: [
       {
         title: 'Visual Studio Code',
         description:
-          'I use VS Code for all of my development work. It’s fast, has great extensions, and is highly customizable.',
+          'I use VS Code for most of my development work. It’s fast, has great extensions, and is highly customizable.',
       },
       {
-        title: 'iTerm2 + Oh My Zsh',
+        title: 'Notepad++',
         description:
-          'I use iTerm2 as my terminal and Oh My Zsh as my shell. It’s a great combination. I use the Agnoster theme with the Fira Code font.',
-      },
-    ],
-  },
-  {
-    groupName: 'Design',
-    items: [
-      {
-        title: 'Figma',
-        description:
-          'I use Figma for all of my design work. It’s fast, has great collaboration features, and is highly customizable.',
-      },
-      {
-        title: 'Whimsical',
-        description:
-          'I use Whimsical for all of my wireframing and flowcharting. It’s fast, has great collaboration features, and is highly customizable.',
+          'I used to use Notepad++ for my development. It works well as it customizes based on the coding language you are using.',
       },
     ],
   },
   {
-    groupName: 'Productivity',
+    groupName: 'Drums',
     items: [
       {
-        title: 'Notion',
+        title: 'Tama Shells',
         description:
-          'I use Notion for all of my note-taking and knowledge management. It’s fast, has great collaboration features, and is highly customizable.',
+          'My drum shells are Tama superstar hyperdrive with a 22" bass drum.',
       },
       {
-        title: 'Alfred',
+        title: 'Evans Drumheads',
         description:
-          'I use Alfred for all of my productivity needs. It’s fast, has great features, and is highly customizable.',
+          'I currently have Evans two-ply drumheads on all my drum shells. They have a built-in muffler ring and are very durable.',
+      },
+      {
+        title: 'Zildjian Cymbals',
+        description:
+          'I have been using Zildjian cymbals since I started drumming. They sound great and last a long time, as long as you treat them right (Don’t hit them in the center. That goes for any cymbals).',
       },
     ],
   },
@@ -115,11 +90,10 @@ export default function Uses() {
       </div>
 
       <div className="projectBody">
-          <h1 className="h1">Software I use, gadgets I love, and other things I recommend.</h1>
+          <h1 className="h1">What do I recommend?</h1>
           <br></br>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-            adipiscing elit Ut et massa mi..
+            Below is a list of hardware, tools, drums and other things I recommend you buy when you are starting out on cyber, coding, or music!
           </p>
           <br></br>
           </div>

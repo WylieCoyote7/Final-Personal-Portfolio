@@ -24,23 +24,23 @@ const links = [
 
 const socialLinks = [
   {
-    text: "Follow me on Twitter",
-    url: "https://twitter.com",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg",
+    text: "Follow me on Facebook",
+    url: "https://www.facebook.com/alexander.wylie.92",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png",
   },
   {
     text: "Follow me on LinkedIn",
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/alexander-wylie-8867a9157/",
     logo: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
   },
   {
     text: "Follow me on GitHub",
-    url: "https://github.com",
+    url: "https://github.com/WylieCoyote7",
     logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
   },
   {
     text: "Email me",
-    url: "mailto:whoami@example.com",
+    url: "mailto:alexw2@ensign.edu",
     logo: "https://img.icons8.com/?size=64&id=6mtfF8X7F8eV&format=png",
   },
 ];
@@ -55,27 +55,30 @@ export default function About() {
 
       <div className="aboutBody">
         <div className="aboutDescription">
-          <h1 className="h1">I’m Jane. I live in New York City, where I develop the future.</h1>
+          <h1 className="h1">Hello, my name is Alex Wylie!</h1>
+          <br></br>
           <br></br>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-            adipiscing elit Ut et massa mi..
+            Thank you for visiting my portfolio page. I am a cybersecurity analyst and software enthusiast. I love to
+            learn about code and how to build software and scripts that make life easier.
           </p>
           <br></br>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-            adipiscing elit Ut et massa mi..
+            I have been an information security analyst for almost 4 years now, and I really enjoy it!
+            I am currently finishing my Bachelor's degree in Cybersecurity at Ensign College. I also love to drum, hike, and bike.
           </p>
           <br></br>
           <p>
             {" "}
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-            adipiscing elit Ut et massa mi..
+            While I am not primarily a software developer, I have a passion for learning and using code to solve problems.
+            For example, at work, I built a basic browser extension that provides shortcuts to tools and lookups
+            that I commonly use. I also have written some python to scrape information on the web and
+            have written some scripts in Microsoft Excel to organize scraped data.
           </p>
           <br></br>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-            adipiscing elit Ut et massa mi..
+            If you ever have questions about cybersecurity, microautomation, or music, please reach out! I'm
+            always willing to help and learn from others.
           </p>
           <br></br>
           <br></br>
@@ -83,14 +86,10 @@ export default function About() {
 
         <div className="aboutColumn">
           <div className="imageStyle">
-            <img src="pic.png" />
+            <img src="large_profile.png" />
           </div>
 
           <SocialWidget links={socialLinks} />
-          {/* <div className="links">Link 1</div>
-          <div className="links">Link 2</div>
-          <div className="links">Link 3</div>
-          <div className="links">Link 4</div> */}
         </div>
       </div>
 

@@ -38,7 +38,7 @@ function ProjectCard({ logos, name, content, link }) {
 
           <div style={{ marginBottom: "0.5cm" }}> </div>
 
-          <div data-testid="projectCard" className="project-card">
+          {/* <div data-testid="projectCard" className="project-card">
             <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
             <h2 data-testid="projectCardName">{name}</h2>
 
@@ -46,12 +46,12 @@ function ProjectCard({ logos, name, content, link }) {
             <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
               <img src="./link.svg" alt="" /> View Project
             </a>
-          </div>
+          </div> */}
         </div>
 
         <br></br>
         <div style={{ marginLeft: "0.5cm" }}>
-          <div data-testid="projectCard" className="project-card">
+          {/* <div data-testid="projectCard" className="project-card">
             <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
             <h2 data-testid="projectCardName">{name}</h2>
 
@@ -59,11 +59,11 @@ function ProjectCard({ logos, name, content, link }) {
             <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
               <img src="./link.svg" alt="" /> View Project
             </a>
-          </div>
+          </div> */}
 
           <div style={{ marginBottom: "0.5cm" }}> </div>
 
-          <div data-testid="projectCard" className="project-card">
+          {/* <div data-testid="projectCard" className="project-card">
             <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
             <h2 data-testid="projectCardName">{name}</h2>
 
@@ -71,13 +71,13 @@ function ProjectCard({ logos, name, content, link }) {
             <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
               <img src="./link.svg" alt="" /> View Project
             </a>
-          </div>
+          </div> */}
         </div>
 
         <br></br>
         {/*third column */}
         <div style={{ marginLeft: "0.5cm", marginBottom: "2cm" }}>
-          <div data-testid="projectCard" className="project-card">
+          {/* <div data-testid="projectCard" className="project-card">
             <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
             <h2 data-testid="projectCardName">{name}</h2>
 
@@ -85,11 +85,11 @@ function ProjectCard({ logos, name, content, link }) {
             <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
               <img src="./link.svg" alt="" /> View Project
             </a>
-          </div>
+          </div> */}
 
           <div style={{ marginBottom: "0.5cm" }}> </div>
 
-          <div data-testid="projectCard" className="project-card">
+          {/* <div data-testid="projectCard" className="project-card">
             <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
             <h2 data-testid="projectCardName">{name}</h2>
 
@@ -97,7 +97,7 @@ function ProjectCard({ logos, name, content, link }) {
             <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
               <img src="./link.svg" alt="" /> View Project
             </a>
-          </div>
+          </div> */}
         </div>
 
         <br></br>
@@ -117,20 +117,26 @@ export default function Projects() {
       </div>
 
       <div className="projectBody">
-        <h1 className="h1">Things I’ve made trying to put my dent in the universe.</h1>
+        <h1 className="h1">What have I been working on?</h1>
         <br></br>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-          adipiscing elit Ut et massa mi..
+          I'm always working to build my skills and learn new things. Here are some of the projects I've been working on!
         </p>
         <br></br>
       </div>
 
       <ProjectCard
-        name="The Firm"
-        logos={"./projectPic.png"}
-        content={"Creating technology to empower civilians to explore space on their own terms."}
-        link={"https://stage.company-corp.com/platform"}
+        name="Home pfSense Firewall"
+        logos={"https://wpcomputersolutions.com/wp-content/uploads/2018/07/pfsense-logo-e1534531558807.png"}
+        content={"A tutorial I am following to install a customizable home firewall"}
+        link={"https://marcus-e.se/2016/07/19/diy-pfsense-firewall-router-part-1-introduction/"}
+      />
+
+      <ProjectCard
+        name="Drumming - Private School Boys"
+        logos={"https://yt3.googleusercontent.com/ytc/AIdro_mZQL8paFnJn1C1lVaUog6kL6UxzRx5-bNuaxnKfU9b8Q=s176-c-k-c0x00ffffff-no-rj"}
+        content={"Listen to some of the drumming parts I have written with my band, Private School Boys"}
+        link={"https://www.youtube.com/@privateschoolboys6919"}
       />
 
       <div className="footerBox">

@@ -36,28 +36,28 @@ const links = [
 
 const experiences = [
   {
-    logo: "/slack.png",
+    logo: "https://a.mktgcdn.com/p/J07Q6MNlx82STGtWPX3cIbexI4iDMBtDDGc8CxB_4ys/1080x1080.png",
     organization: "The Church of Jesus Christ of Latter-day Saints",
     jobTitle: "Security Analyst",
     startYear: 2020,
     endYear: null,
   },
   {
-    logo: "/spotify.png",
+    logo: "https://a.mktgcdn.com/p/J07Q6MNlx82STGtWPX3cIbexI4iDMBtDDGc8CxB_4ys/1080x1080.png",
     organization: "The Church of Jesus Christ of Latter-day Saints",
     jobTitle: "Technical Support Generalist",
     startYear: 2019,
     endYear: 2020,
   },
   {
-    logo: "/audible.png",
+    logo: "https://muskogeechamber.org/wp-content/uploads/2021/05/Reaction-Logo.jpg",
     organization: "Reaction Data",
     jobTitle: "Data Entry Intern",
     startYear: 2017,
     endYear: 2019,
   },
   {
-    logo: "/microsoft.png",
+    logo: "https://lds-business-college.brightspotcdn.com/6c/99/0317974248b7a03a5c793a124480/ensign-logo-site.svg",
     organization: "Cybersecurity Club President",
     jobTitle: "Ensign College",
     startYear: 2020,
@@ -70,32 +70,32 @@ const experiences = [
 const articles = [
   {
     date: "Nov 15, 2021",
-    title: "Everything you need to know about React",
+    title: "Drumeo - The Ultimate Online Drum Lessons Experience!",
     content:
-      "The ability to build stuff in React is one of the hottest skills to have today in software engineering. There is a lot of demand for React developers among startups as well as MNCs.",
-    link: "https://medium.com/the-research-nest/everything-you-need-to-know-about-react-ab24da4275ea",
+      "Drumeo is the world’s biggest online drum education platform. You might know us from our world-class drum videos, our supportive community, or our awesome Drumeo Coaches. ",
+    link: "https://www.drumeo.com/about",
   },
   {
     date: "Sep 2, 2020",
-    title: "The Missing Introduction to React",
+    title: "The Hacker News",
     content:
-      "React is the world’s most popular JavaScript framework, but it’s not cool because it’s popular. It’s popular because it’s cool. Most React introductions jump right into showing you examples of how to use React, and skip the “why”.",
-    link: "https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76",
+      "The Hacker News (THN) stands as a top and reliable source for the latest updates in cybersecurity. As an independent outlet, we offer balanced and thorough insights into the cybersecurity sector, trusted by professionals and enthusiasts alike.",
+    link: "https://thehackernews.com/",
   },
   {
     date: "Mar 12, 2022",
-    title: "We can do it guys",
+    title: "AllTrails - Best Hikes in Utah!",
     content:
-      "React is the world’s most popular JavaScript framework, but it’s not cool because it’s popular. It’s popular because it’s cool. Most React introductions jump right into showing you examples of how to use React, and skip the “why”.",
-    link: "https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76",
+      "Ready to check out the best trails in Utah for hiking, mountain biking, climbing or other outdoor activities? AllTrails has 3,194 hiking trails, mountain biking routes, backpacking trips and more. Discover hand-curated trail maps, along with reviews and photos from nature lovers like you.",
+    link: "https://www.alltrails.com/us/utah",
   },
 ];
 
 // Skills that go into the Skills Widget
 const skills = [
-  { name: "HTML", proficiency: 60, icon: "html5.png" },
-  { name: "CSS", proficiency: 50, icon: "css3.png" },
-  { name: "JavaScript", proficiency: 75, icon: "javascript.png" },
+  { name: "JavaScript", proficiency: 70, icon: "javascript.png" },
+  { name: "Python", proficiency: 40, icon: "https://res.cloudinary.com/teepublic/image/private/s--TwCcIoc_--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_000000,e_outline:48/co_000000,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1520050660/production/designs/2416585_0.jpg" },
+  { name: "PowerShell", proficiency: 30, icon: "https://techmeaway.net/wp-content/uploads/2020/02/powershell_logo-1024x1024.png" },
 ];
 
 export default function Home() {
@@ -128,7 +128,7 @@ export default function Home() {
           <>
             <SignupWidget
               title={"Stay up to date"}
-              content={"Get notified when I publish something new, and unsubscribe at any time."}
+              content={"Sign up for updates and tips from me here!"}
             />
           </>
         </div>

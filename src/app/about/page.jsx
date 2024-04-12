@@ -65,7 +65,7 @@ export default function About() {
           <br></br>
           <p>
             I have been an information security analyst for almost 4 years now, and I really enjoy it!
-            I am currently finishing my Bachelor's degree in Cybersecurity at Ensign College. I also love to drum, hike, and bike.
+            I am currently finishing my Bachelors degree in Cybersecurity at Ensign College. I also love to drum, hike, and bike.
           </p>
           <br></br>
           <p>
@@ -77,7 +77,7 @@ export default function About() {
           </p>
           <br></br>
           <p>
-            If you ever have questions about cybersecurity, microautomation, or music, please reach out! I'm
+            If you ever have questions about cybersecurity, microautomation, or music, please reach out! I am
             always willing to help and learn from others.
           </p>
           <br></br>

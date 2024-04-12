@@ -120,7 +120,7 @@ export default function Projects() {
         <h1 className="h1">What have I been working on?</h1>
         <br></br>
         <p>
-          I'm always working to build my skills and learn new things. Here are some of the projects I've been working on!
+          I am always working to build my skills and learn new things. Here are some of the projects I have been working on!
         </p>
         <br></br>
       </div>

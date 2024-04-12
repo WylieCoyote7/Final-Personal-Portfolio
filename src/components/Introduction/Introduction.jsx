@@ -5,7 +5,7 @@ import React from "react";
 const ProfileSection = () => {
   return (
     <div className="profile-section">
-      <img src="small_profile.png" alt="profile" clasName="pofilepic" />
+      {/* <img src="@public/small_profile.png" alt="profile" clasName="pofilepic" /> */}
       <h1>Cybersecurity analyst, software enthusiast</h1>
       <p>
         My name is Alex Wylie and I am currently a cybersecurity analyst. I also love to learn about code and

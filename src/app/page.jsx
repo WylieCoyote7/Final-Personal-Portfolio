@@ -18,19 +18,19 @@ import "./page.css";
 const links = [
   {
     title: "Home",
-    url: "/",
+    url: "/Final-Personal-Portfolio/",
   },
   {
     title: "About",
-    url: "/about",
+    url: "/Final-Personal-Portfolio/about",
   },
   {
     title: "Projects",
-    url: "/projects",
+    url: "/Final-Personal-Portfolio/projects",
   },
   {
     title: "Uses",
-    url: "/uses",
+    url: "/Final-Personal-Portfolio/uses",
   },
 ];
 
@@ -93,7 +93,7 @@ const articles = [
 
 // Skills that go into the Skills Widget
 const skills = [
-  { name: "JavaScript", proficiency: 70, icon: "javascript.png" },
+  { name: "JavaScript", proficiency: 70, icon: "https://freepngdesign.com/content/uploads/images/javascript-logo-7539.png" },
   { name: "Python", proficiency: 40, icon: "https://res.cloudinary.com/teepublic/image/private/s--TwCcIoc_--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_000000,e_outline:48/co_000000,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1520050660/production/designs/2416585_0.jpg" },
   { name: "PowerShell", proficiency: 30, icon: "https://techmeaway.net/wp-content/uploads/2020/02/powershell_logo-1024x1024.png" },
 ];

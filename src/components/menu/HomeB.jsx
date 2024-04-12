@@ -58,10 +58,10 @@ Navbar.propTypes = {
   ).isRequired,
 };
 const options = [
-  { path: "/", label: "Home" },
-  { path: "/about", label: "About" },
-  { path: "/projects", label: "Projects" },
-  { path: "/uses", label: "Uses" },
+  { path: "/Final-Personal-Portfolio/", label: "Home" },
+  { path: "/Final-Personal-Portfolio/about", label: "About" },
+  { path: "/Final-Personal-Portfolio/projects", label: "Projects" },
+  { path: "/Final-Personal-Portfolio/uses", label: "Uses" },
 ];
 Navbar.defaultProps = {
   options,

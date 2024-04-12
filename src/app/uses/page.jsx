@@ -7,19 +7,19 @@ import "./uses.css";
 const links = [
   {
     title: "Home",
-    url: "/",
+    url: "/Final-Personal-Portfolio/",
   },
   {
     title: "About",
-    url: "/about",
+    url: "/Final-Personal-Portfolio/about",
   },
   {
     title: "Projects",
-    url: "/projects",
+    url: "/Final-Personal-Portfolio/projects",
   },
   {
     title: "Uses",
-    url: "/uses",
+    url: "/Final-Personal-Portfolio/uses",
   },
 ];
 

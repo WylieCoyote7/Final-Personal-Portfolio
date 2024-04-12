@@ -23,80 +23,88 @@ const links = [
 ];
 function ProjectCard({ logos, name, content, link }) {
   return (
-    <>
-      <div data-testid="projectCard" className="project-card">
+    <div className="relative">
+      <div className="flex">
         <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
+          <div data-testid="projectCard" className="project-card">
+            <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
+            <h2 data-testid="projectCardName">{name}</h2>
+
+            <p data-testid="projectCardContent">{content}</p>
+            <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
+              <img src="./link.svg" alt="" /> View Project
+            </a>
+          </div>
+
+          <div style={{ marginBottom: "0.5cm" }}> </div>
+
+          <div data-testid="projectCard" className="project-card">
+            <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
+            <h2 data-testid="projectCardName">{name}</h2>
+
+            <p data-testid="projectCardContent">{content}</p>
+            <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
+              <img src="./link.svg" alt="" /> View Project
+            </a>
+          </div>
         </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
+
+        <br></br>
+        <div style={{ marginLeft: "0.5cm" }}>
+          <div data-testid="projectCard" className="project-card">
+            <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
+            <h2 data-testid="projectCardName">{name}</h2>
+
+            <p data-testid="projectCardContent">{content}</p>
+            <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
+              <img src="./link.svg" alt="" /> View Project
+            </a>
+          </div>
+
+          <div style={{ marginBottom: "0.5cm" }}> </div>
+
+          <div data-testid="projectCard" className="project-card">
+            <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
+            <h2 data-testid="projectCardName">{name}</h2>
+
+            <p data-testid="projectCardContent">{content}</p>
+            <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
+              <img src="./link.svg" alt="" /> View Project
+            </a>
+          </div>
         </div>
+
+        <br></br>
+        {/*third column */}
+        <div style={{ marginLeft: "0.5cm", marginBottom: "2cm" }}>
+          <div data-testid="projectCard" className="project-card">
+            <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
+            <h2 data-testid="projectCardName">{name}</h2>
+
+            <p data-testid="projectCardContent">{content}</p>
+            <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
+              <img src="./link.svg" alt="" /> View Project
+            </a>
+          </div>
+
+          <div style={{ marginBottom: "0.5cm" }}> </div>
+
+          <div data-testid="projectCard" className="project-card">
+            <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
+            <h2 data-testid="projectCardName">{name}</h2>
+
+            <p data-testid="projectCardContent">{content}</p>
+            <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
+              <img src="./link.svg" alt="" /> View Project
+            </a>
+          </div>
+        </div>
+
+        <br></br>
+
+        <br></br>
       </div>
-      <div data-testid="projectCard" className="project-card">
-        <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
-        </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
-        </div>
-      </div>
-      <div data-testid="projectCard" className="project-card">
-        <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
-        </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
-        </div>
-      </div>
-      <div data-testid="projectCard" className="project-card">
-        <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
-        </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
-        </div>
-      </div>
-      <div data-testid="projectCard" className="project-card">
-        <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
-        </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
-        </div>
-      </div>
-      <div data-testid="projectCard" className="project-card">
-        <div>
-          <img data-testid="projectCardLogo" src={logos} alt={`${name} Logo`} className="project-card-logo" />
-          <h2 data-testid="projectCardName">{name}</h2>
-        </div>
-        <div>
-          <p data-testid="projectCardContent">{content}</p>
-          <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-            <img src="./link.svg" alt="" /> View Project
-          </a>
-        </div>
-      </div>
-    </>
+    </div>
   );
 }
 
@@ -117,17 +125,18 @@ export default function Projects() {
         </p>
         <br></br>
       </div>
-      <div className="flex flex-wrap">
-        <ProjectCard
-          name="The Firm"
-          logos={"./projectPic.png"}
-          content={"Creating technology to empower civilians to explore space on their own terms."}
-          link={"https://stage.company-corp.com/platform"}
-        />
-      </div>
+
+      <ProjectCard
+        name="The Firm"
+        logos={"./projectPic.png"}
+        content={"Creating technology to empower civilians to explore space on their own terms."}
+        link={"https://stage.company-corp.com/platform"}
+      />
+
       <div className="footerBox">
         <Footer className="Footer" links={links} />
       </div>
     </div>
   );
 }
+

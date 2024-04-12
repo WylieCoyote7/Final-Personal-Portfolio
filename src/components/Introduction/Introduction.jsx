@@ -10,7 +10,7 @@ const ProfileSection = () => {
       <p>
         My name is Alex Wylie and I am currently a cybersecurity analyst. I also love to learn about code and
         how to build software and scripts that make life easier. Technology is supposed to be used, so
-        let's use it!
+        let us use it!
       </p>
       <div className="social-icons">
         <a href="https://www.linkedin.com/in/alexander-wylie-8867a9157/" target="_blank" rel="noopener noreferrer"></a>
